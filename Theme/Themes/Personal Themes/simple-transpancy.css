@@ -1,0 +1,123 @@
+/* **** */
+
+/* Transparent Settings */
+:root,
+.custom-theme-background {
+    --custom-theme-background: transparent !important;
+    --background-primary: transparent !important;
+    --background-secondary: transparent !important;
+    --background-secondary-alt: transparent !important;
+    --background-tertiary: transparent !important;
+    --background-base-lowest: transparent !important;
+    --background-base-lower: transparent !important;
+    --background-base-low: transparent !important;
+}
+
+html,
+body,
+#app-mount,
+[class^="app_"],
+[class*=" app_"],
+[class^="bg_"],
+[class*=" bg_"],
+[class*="theme-dark"],
+[class*="scroller"] {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+[aria-label*="Servers sidebar"]>[class*="tree"],
+[aria-label="Private channels"] {
+    background: transparent;
+}
+
+[aria-label*="Servers sidebar"],
+[class*="sidebarList_"] {
+    margin-bottom: 75px !important;
+}
+
+[aria-label*="Friends"]:has([class*="peopleColumn__"]),
+[class*="sidebarList_"]:has([aria-label="Private channels"]),
+[class*="sidebarList_"]:has([aria-label*="(server)"]) {
+    margin: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+
+[class*=page__]:has([class*=chatContent_]) {
+    >div {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    >div>div {
+        border-radius: 10px !important;
+        border-top: none;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background: rgba(0, 0, 0, 0.4) !important;
+    }
+
+    [class*=chatContent_]:is([aria-label*="(channel)"]) {
+        background: rgba(0, 0, 0, 0.4) !important;
+    }
+}
+
+[class*="sidebarList_"]:has([aria-label*="(server)"])>[aria-label*="(server)"] {
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+
+[class*="tabBar"] {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* **** */
+
+/* **** */
+
+/* Message Bar */
+.channelBottomBarArea_f75fb0:has(.vc-chatbar-button) {
+
+    /* height: 300px; */
+    [class*=scrollableContainer] {
+        height: 300px !important;
+    }
+
+    .buttons__74017 {
+        flex-direction: column;
+        height: max-content;
+        margin-top: 3.5rem;
+        left: 0.75em;
+        position: absolute;
+
+    }
+}
+
+/* **** */
+
+/* **** */
+
+/* People List in Server */
+[class*=container]:has([aria-label="Members"]) [aria-label="Members"] {
+    [class*=member]:has([class*=memberInner]) {
+        background: transparent !important;
+    }
+}
+
+/* **** */
+
+/* **** */
+
+/* Settings */
+[class*=modalContent]:has([aria-label="Settings pages"]) {
+    [class*=sidebar__], [class*=content] {
+        background: rgba(0, 0, 0, 0.9) !important;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+}
+
+/* **** */
+
