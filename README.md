@@ -1,14 +1,24 @@
 # Discord Themes
 
-Note: 
-> Discord updated classes in the html so some themes might not work. 
+> [!NOTE] 
+> Discord updated classes in the html so some themes might not work.
+
+> [!IMPORTANT]
+> Ensure Vencord is installed and that transparency is enabled. DO NOT change the default appearance in Discord as it will break the theme
 
 ## Online Import
-```css
+`
 https://nexus-scripture.github.io/Discord-Themes/[copy path from file in github]
-```
+`
+
+---
 
 ### Example Copy Path
-<img width="272" height="68" alt="image" src="https://github.com/user-attachments/assets/4a133fb3-4845-4e45-be39-a2d2da5a72c0" />
+<img width="655" height="76" alt="image" src="https://github.com/user-attachments/assets/6ec68bd3-628e-47b9-b908-5726b7b7c0fb" />
 
-Example Output: `Theme/`
+Copied Output: `Theme/Themes/Personal Themes/simple-transpancy.css`
+
+> [!IMPORTANT]
+> Replace spaces with `%20`
+
+Import URL: `https://nexus-scripture.github.io/Discord-Themes/Theme/Themes/Personal%20Themes/simple-transpancy.css`
