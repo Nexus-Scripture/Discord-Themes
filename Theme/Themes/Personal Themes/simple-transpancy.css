@@ -121,3 +121,23 @@ body,
 
 /* **** */
 
+/* **** */
+
+/* Hides Member */
+[class*=chat_] [class^=container_]:has([class*=membersWrap_]) {
+    transition: all 0.5s ease !important;
+    transform:translateX(-210px);
+    background-color: rgba(0, 0, 0, 0.9);
+    
+    &:not(:hover) {
+        transform: translateX(0px);
+        opacity: 1;
+        transition: all 0.5s ease !important;
+    }
+}
+
+[class*=chat_] [class^=content]:has([class*=messagesWrapper_]) {
+    width: 128%;
+}
+
+/* **** */
