@@ -77,7 +77,7 @@ body,
 /* **** */
 
 /* Message Bar */
-.channelBottomBarArea_f75fb0:has(.vc-chatbar-button) {
+[class*=formWithLoadedChatInput] [class*=channelBottomBarArea]:has(.vc-chatbar-button) {
 
     /* height: 300px; */
     [class*=scrollableContainer] {
@@ -93,7 +93,6 @@ body,
 
     }
 }
-
 /* **** */
 
 /* **** */
